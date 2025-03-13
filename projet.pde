@@ -91,7 +91,7 @@ PShape createPylone(){
   pylone.vertex(start , 0, -size);
   pylone.vertex(start , - height_, -size);
   
-  for(int i = 0; i < height_ ; i += 5){ //Severe mental damage
+  for(int i = 0; i < height_ ; i += 5){ 
     pylone.vertex(start, -i, 0);
     pylone.vertex(start + size, -i - 5, 0);
     pylone.vertex(start, -i - 5, 0);
